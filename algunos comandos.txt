@@ -1,20 +1,43 @@
 git init: para iniciar 
+
 git add -a,o un punto en ves de a (.), estos dos espara colocar todo a la ves, o el nombre  del archivo para de forma individual git add <nobre>,todo estos es como para medio guardar
+
 git commit -m "mensaje" o solo git commit pero abre una ventana en la cual se escribe el mensaje se presiona la letra i y de hay se ecribe el mensaje, luego esc y te pide un comando se coloca el cual es :wq (con los dos puntos): es como para alistar para enviar
+
 git status: para ver el estado, aver si esta todo guardo si esta todo bien
+
 git log: retorna los commit`s con los datos de los cambios
+
 pwd: es para saber donde esta
+
 cd + carpeta: para avanzar  
+
 ls: retorna lo que hay en esa carpeta
+
 git checkout -- <mas nombre del archivo>: descarta cambios, esto me imagino que antes de subir
+
 git diff <nombre del archivo>: si he modificado algo esto retorna las diferencias
+
 si deseo ingnorar archivos debo de guardarlos el nombre no mas en un archivo que se llame .gitignore ,y en ese archivo solo coloco los nombres de las carpetas o archivo que deseo ignorar, ese archivo  lo puedo guardar pero los archivos que esten escritos o nombrados en el van hacer ignorados
+
 git branch: retorna master, creo que quiere decir que es el principal creador
+
 git branch <nombre-de-lo-q-sea>: crea una version alternativa y si coloco de nuevo $git branch retorna el master y el nuevo que he colocado hay
+
 git checkout <el-nombre-de-version-alternativa-que-cree-anteriormente>: con esto cambio de master a este nuevo es como la vaina de las ramas me cambie a otra rama :), tambien e usado este comando arriba, pero aqui tambien se usa, debe ser relacionado.
+
 git branch: retorna master y el nuevo pero este segundo sale resaltado diciendo que he cambiado cuando anteriormente decia master y era que estaba resaltdo en color ok
+
 al colocar git checkout master para volver al principal desaparese los cambios a creaciones que se aigan hecho con la version alternativa, es como para pruebas (creo)
+
 git remote add origin <link del repositorio>: es para subir el proyecto a un repositiorio de github, pero no lo sube si no que lo deja preprado 
+
 git pust -u origin master: con esto si subo el proyecto
+
+git add README.md: en gitgub es un archivo especial, por que este va a ser la portada por decirlo asi es que se va ver primero o es que se va ver en el repositorio abajito de los archivos, en el cual debe colocar un descripcion del proyecto, este archivo lo subo antes de los demas archivos para que lo tenga en cuenta, $ git add README.md y luego si el resto $ git add . ,de todos modos en github se puede crer o modificar 
+
+git clone <url del repositorio>: descarga los archivos tal cual estan el repositorio junto la carpeta esa .git que tiene los datos internos del git 
+
+al hacer git log veo el historial o fotos de las modificaciones
 
 como guardar una rama de git en el master
